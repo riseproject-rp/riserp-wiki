@@ -10,19 +10,18 @@ How damage, armour, tiers and durability work in Rise RP Miami.
 
 ## 💥 Damage
 
-Your damage goes up with your **combat level** (max **25**). Each hit rolls inside the range.
+Your damage and your **health** both go up with your **combat level** (max **25**). Health goes from **100** at level 1 to **150** at level 25, so fights take about the same number of hits at every level.
 
-| Level | Sword | Axe | Bat | Fists |
+| Weapon | Level 1 | Level 10 | Level 25 | Hits vs your own level |
 |---|---|---|---|---|
-| 1 | 6–7 | 5–6 | 4–5 | 2–3 |
-| 5 | 8–9 | 7–8 | 6–7 | 4–5 |
-| 10 | 10–11 | 9–10 | 7–8 | 5–6 |
-| 15 | 12–13 | 11–12 | 9–10 | 7–8 |
-| 20 | 14–15 | 13–14 | 11–12 | 9–10 |
-| 25 | 16–17 | 15–16 | 13–14 | 11–12 |
+| Sword | 12–13 | 14–15 | 18–19 | ~8–9 |
+| Axe | 10–11 | 12–13 | 16–17 | ~10 |
+| Bat | 8–9 | 10–11 | 13–14 | ~12 |
+| Knife | 5–6 | 6–7 | 8–9 | ~18 (fastest swing) |
+| Fists | 5–6 | 6–7 | 8–9 | ~18 |
 
 > [!NOTE]
-> These are **Gray** (as bought) weapons hitting someone with **no vest**.
+> These are **Gray** (as bought) weapons hitting someone with **no vest**. A level 25 beats a level 1 about **2 to 1**.
 
 - 🪓 **Axe:** some hits **stun** the target for a moment.
 - 🔪 **Knife:** light and fast, low damage.
@@ -41,21 +40,23 @@ Upgrade weapons and armour at the **Bass Pro Workbench** (see the Crafting wiki)
 | 🟪 Purple | +12% | 10% | ✨ Yes |
 | 🟨 Gold | +25% | 15% | ✨ Yes |
 
-**Gold at level 25:** Sword **20–21** · Axe **19–20** · Bat **16–18**
+**Gold at level 25:** Sword **23–24** · Axe **20–21** · Bat **16–18**
 
 ---
 
 ## 🛡️ Body Armour
 
-Body Armour takes a **%** off every hit you take. Better tiers can also **hit back**.
+Body Armour takes a **%** off every hit you take. Better tiers can also **hit back** and **dodge stuns**.
 
-| Tier | Blocks | Hits back |
-|---|---|---|
-| ⬜ Gray | 4% | – |
-| 🟩 Green | 7% | – |
-| 🟦 Blue | 11% | 8% chance, 20% of the hit |
-| 🟪 Purple | 15% | 12% chance, 25% of the hit |
-| 🟨 Gold | 20% | 18% chance, 30% of the hit |
+| Tier | Blocks | Hits back | Stun dodge |
+|---|---|---|---|
+| ⬜ Gray | 4% | – | – |
+| 🟩 Green | 7% | – | – |
+| 🟦 Blue | 11% | 8% chance, 20% of the hit | 5% |
+| 🟪 Purple | 15% | 12% chance, 25% of the hit | 10% |
+| 🟨 Gold | 20% | 18% chance, 30% of the hit | 15% |
+
+**Stun dodge** = chance to shrug off a stun gun or axe stun.
 
 > [!IMPORTANT]
 > Armour block + weapon block add up, but **total blocking is capped at 35%**.
@@ -67,10 +68,10 @@ Body Armour takes a **%** off every hit you take. Better tiers can also **hit ba
 The hit message tells you what happened:
 
 ```
-*slashes Cass with their sword, dealing 12 damage*
-*slashes Cass with their sword, dealing 17 damage (+4 Gold)*
-*slashes Cass with their sword, dealing 13 damage (-1 Armour)*
-*slashes Cass with their sword, dealing 16 damage (+4 Gold, -1 Armour)*
+*slashes Cass with their sword, dealing 18 damage*
+*slashes Cass with their sword, dealing 23 damage (+5 Gold)*
+*slashes Cass with their sword, dealing 18 damage (-1 Armour)*
+*slashes Cass with their sword, dealing 22 damage (+5 Gold, -1 Armour)*
 ```
 
 - **+X Gold** = extra damage from the weapon's tier.
