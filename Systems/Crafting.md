@@ -59,7 +59,7 @@ Better tiers **wear out slower**:
 | Purple | ~2.5x |
 | Gold | ~3.6x |
 
-A worn-out weapon can be fixed by a Bass Pro **Weaponsmith** (`:repair`).
+At **0** it breaks and is gone. Get it repaired at Bass Pro (`:repair`) before then.
 
 ---
 
