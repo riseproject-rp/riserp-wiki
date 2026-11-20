@@ -52,23 +52,23 @@ Bass Pro is Miami's outdoor store: **weapons, body armour, lockpicks and repairs
 4. If **either of you moves**, the repair stops.
 
 > [!NOTE]
-> Every hit wears a weapon down. A broken weapon stays in your bag until it is repaired.
+> Every landed hit wears weapons and vests down. At **0** they **break and are gone**, so repair them before that.
 
 ---
 
 ## ⚔️ Weapon Stats
 
-| Weapon | Price | Damage lvl 1 | Damage lvl 25 | Swing |
-|---|---|---|---|---|
-| Sword | $1,000 | 14–16 | 26–28 | 2.4s |
-| Axe | $500 | 10–12 | 22–24 | 2.6s |
-| Bat | $200 | 7–9 | 19–21 | 2.2s |
-| Knife | $200 | 1–2 | 10–12 | 1.6s |
-| Fists | – | 2–4 | 14–16 | 2.0s |
+| Weapon | Price | Damage lvl 1 | Damage lvl 25 |
+|---|---|---|---|
+| Sword | $1,000 | 6–7 | 16–17 |
+| Axe | $500 | 5–6 | 15–16 |
+| Bat | $200 | 4–5 | 13–14 |
+| Knife | $200 | 1–2 | 10–12 |
 
 - Damage goes up with your **combat level** (max **25**).
 - **Body Armour** takes a % off every hit you take.
 - Weapons and armour can be upgraded at the **Workbench**. See the **Crafting** wiki.
+- Full fight rules: see the **Weapons & Fighting** wiki.
 
 ---
 
