@@ -60,10 +60,10 @@ Bass Pro is Miami's outdoor store: **weapons, body armour, lockpicks and repairs
 
 | Weapon | Price | Damage lvl 1 | Damage lvl 25 |
 |---|---|---|---|
-| Sword | $1,000 | 6–7 | 16–17 |
-| Axe | $500 | 5–6 | 15–16 |
-| Bat | $200 | 4–5 | 13–14 |
-| Knife | $200 | 1–2 | 10–12 |
+| Sword | $1,000 | 12–13 | 18–19 |
+| Axe | $500 | 10–11 | 16–17 |
+| Bat | $200 | 8–9 | 13–14 |
+| Knife | $200 | 5–6 | 8–9 |
 
 - Damage goes up with your **combat level** (max **25**).
 - **Body Armour** takes a % off every hit you take.
